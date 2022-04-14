@@ -17,10 +17,12 @@
         <a href="#"><img src="./images/netflix-logo-png-2562.png" alt="" /></a>
       </div>
       <div class="header-right">
-        <button class="lan">
-          <i class="fa-solid fa-earth-americas"></i>English<i
-            class="fa-solid fa-angle-down"
-          ></i>
+        <button onclick="lan()" class="lan">
+          <i class="fa-solid fa-earth-americas"></i>English
+          <i class="fa-solid fa-angle-down"></i>
+          <div id="langauge">
+              <a><i class="fa-solid fa-earth-americas"></i>Deutsch</a>
+          </div>
         </button>
         <button class="signIn">Sign In</button>
       </div>
@@ -33,7 +35,7 @@
           Ready to watch? Enter your email to create or restart your membership.
         </p>
         <form action="">
-          <input type="email" name="email" id="1" />
+          <input placeholder="Email address" type="email" name="email" id="1" />
           <button>Get Started <i class="fa-solid fa-angle-right"></i></button>
         </form>
       </div>

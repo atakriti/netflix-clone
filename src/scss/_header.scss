@@ -34,6 +34,30 @@ header{
            border: 1px white solid;
            color: white;
             outline: none;
+            position: relative;
+            #langauge{
+                border: 1px white solid;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                left: 0;
+                padding: 10%;
+                // min-height: 2vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+                a{
+                    display: flex;
+                    justify-content: space-around;
+                align-items: center;
+                    width: 100%;
+                    color: white;
+                    font-size: $fs-sm;
+                    text-decoration: none;
+
+                }
+            }
         }
         .signIn{
             font-size:$fs-sm;

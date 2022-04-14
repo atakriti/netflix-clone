@@ -93,3 +93,12 @@ let six = () => {
 
     }
 }
+// ================ Language ==========
+let lan = () => {
+    let language = document.getElementById("langauge");
+    if (language.style.display === "none") {
+        language.style.display = "block";
+    } else {
+        language.style.display = "none"
+    }
+}
