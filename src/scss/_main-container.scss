@@ -289,7 +289,6 @@ main {
       .questions {
           width: 100%;
         .one,.two,.three,.four,.five,.six{
-            margin-bottom: 1%;
             width: 100%;
             a {
                 display: flex;
@@ -321,19 +320,22 @@ main {
             
               }
               
-            //  ============= details ===========
-            #details,#detailsTwo,#detailsThree,#detailsFour,#detailsFive,#detailsSix{
-                padding: 2%;
-                display: none;
-                border-bottom: 0.2vw rgba(128, 128, 128, 0.637) solid;
-                border-left: 0.2vw rgba(128, 128, 128, 0.637) solid;
-                border-right: 0.2vw rgba(128, 128, 128, 0.637) solid;
-                background-color:rgba(128, 128, 128, 0.356) ;
-                p{
-                    color: white;
-                    font-size: $fs-p;
-                    line-height: 2vw;
-                }
+            
+        }
+        //  ============= details ===========
+        #details,#detailsTwo,#detailsThree,#detailsFour,#detailsFive,#detailsSix{
+            padding: 2%;
+            display: none;
+            border-bottom: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            border-left: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            border-right: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            background-color:rgba(128, 128, 128, 0.356) ;
+            margin-bottom: 1%;
+            
+            p{
+                color: white;
+                font-size: $fs-p;
+                line-height: 2vw;
             }
         }
         
