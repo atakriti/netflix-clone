@@ -23,54 +23,31 @@ header{
         width: 15%;
         display: flex;
         justify-content: space-around;
-        .lan{
-            font-size:$fs-sm;
-            width: 42%;
+        select{
+            border: 0.1vw white solid;
+            background-color: transparent;
+            color: white;
+              width: 40%;
+            font-size: $fs-sm;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding:2%;
-           background-color: rgba(0, 0, 0, 0.705);
-           border: 1px white solid;
-           color: white;
-            outline: none;
-            position: relative;
-            cursor: pointer;
-            #langauge{
-                border: 1px white solid;
-                position: absolute;
-                top: 100%;
-                right: 0;
-                left: 0;
-                padding: 10%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                display: none;
-                cursor: pointer;
-                a{
-                    display: flex;
-                    justify-content: space-around;
-                align-items: center;
-                    width: 100%;
-                    color: white;
-                    font-size: $fs-sm;
-                    text-decoration: none;
+         padding: 2% 4%;
+         appearance:none;
+          -webkit-appearance:none; // this is for chrome
+        background-image: url(../images/arrow.png);
+        background-size:$fs-sm;
+        background-repeat: no-repeat;
+        background-position: 90%;
+        outline: none;
+           
+            option{
+                font-size: $fs-m;
+            background-color: black;
+            
 
-                }
-                &:hover{
-                    a{
-                        color: rgb(139, 139, 139);
-                    }
-                }
             }
-            &:hover{
-                color: red;
-                border: none;
-                
-            }
-            
-            
+                    
         }
         .signIn{
             font-size:$fs-sm;

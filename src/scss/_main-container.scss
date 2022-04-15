@@ -274,7 +274,7 @@ main {
   }
   // =============== asked ===========
   .asked {
-    border-block: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
     padding-block: 3%;
     .asked-container {
       width: 50%;
@@ -310,7 +310,7 @@ main {
 
                     i{
                         color: white;
-                        font-size: calc($fs-h1 - 0.8vw);
+                        font-size:$fs-p;
                     }
                     .fa-x{
                         display: none;
@@ -340,6 +340,49 @@ main {
         }
         
       }
+    }
+  }
+  // ============= last form =============
+  .lastForm {
+    padding-block: 3%;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    .lastForm-container{
+
+      width: 40%;
+      margin: 0 auto;
+     
+       p {
+         color: white;
+         font-size: $fs-p;
+         margin: 3% 0;
+       }
+       form {
+         display: inline-flex;
+         width: 100%;
+         border-radius: 10px;
+         margin-top: 5%;
+         input {
+           width: 70%;
+           font-size: $fs-p;
+           padding: 2%;
+           border-radius: 10px 0 0 10px;
+           border: none;
+           outline: none;
+         }
+         button {
+           width: 30%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 0 4%;
+           font-size: $fs-p;
+           background-color: red;
+           color: white;
+           border: none;
+           outline: none;
+           border-radius: 0 10px 10px 0;
+         }
+       }
     }
   }
 }
