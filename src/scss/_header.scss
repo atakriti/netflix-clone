@@ -9,7 +9,7 @@ header{
     background-color: rgba(0, 0, 0, 0.664);
     box-shadow: 10px 10px 20px black;
     .logo{
-        width: 8rem;
+        width: 8%;
         a{
             display: flex;
             img{
@@ -20,8 +20,7 @@ header{
     }
     // ======== header-right ===========
     .header-right{
-        width: 15rem;
-        border: 1px red solid;
+        width: 15%;
         display: flex;
         justify-content: space-around;
         select{
@@ -29,7 +28,7 @@ header{
             background-color: transparent;
             color: white;
               width: 40%;
-            font-size: 0.9rem;
+            font-size: $fs-sm;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -37,13 +36,13 @@ header{
          appearance:none;
           -webkit-appearance:none; // this is for chrome
         background-image: url(../images/arrow.png);
-        background-size:0.9rem;
+        background-size:$fs-sm;
         background-repeat: no-repeat;
         background-position: 90%;
         outline: none;
            
             option{
-                font-size: 0.9rem;
+                font-size: $fs-m;
             background-color: black;
             
 
