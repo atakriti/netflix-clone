@@ -128,9 +128,10 @@ main {
   width: 100%;
 }
 main .tv {
-  border-block: 0.4vw rgba(255, 255, 255, 0.171) solid;
+  border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+  border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
   width: 100%;
-  padding-block: 3%;
+  padding: 3% 0;
 }
 main .tv .tv-container {
   width: 80%;
@@ -177,7 +178,7 @@ main .tv .tv-container .tv-img .tv-vid video {
   width: 100%;
 }
 main .download {
-  padding-block: 3%;
+  padding: 3% 0;
 }
 main .download .download-container {
   width: 80%;
@@ -239,9 +240,10 @@ main .download .download-container .download-text p {
   font-size: 1.3vw;
 }
 main .everywhere {
-  border-block: 0.4vw rgba(255, 255, 255, 0.171) solid;
+  border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+  border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
   width: 100%;
-  padding-block: 3%;
+  padding: 3% 0;
 }
 main .everywhere .everywhere-container {
   width: 80%;
@@ -287,7 +289,7 @@ main .everywhere .everywhere-container .everywhere-img .everywhere-vid video {
   width: 100%;
 }
 main .kids {
-  padding-block: 3%;
+  padding: 3% 0;
 }
 main .kids .kids-container {
   width: 80%;
@@ -324,7 +326,7 @@ main .kids .kids-container .kids-img a img {
 }
 main .asked {
   border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
-  padding-block: 3%;
+  padding: 3% 0;
 }
 main .asked .asked-container {
   width: 50%;
@@ -382,7 +384,7 @@ main .asked .asked-container .questions #details p, main .asked .asked-container
   line-height: 2vw;
 }
 main .lastForm {
-  padding-block: 3%;
+  padding: 3% 0;
   border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
 }
 main .lastForm .lastForm-container {
