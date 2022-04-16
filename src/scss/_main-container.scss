@@ -71,9 +71,10 @@ main {
   width: 100%;
 
   .tv {
-    border-block: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
     width: 100%;
-    padding-block: 3%;
+    padding: 3% 0;
     .tv-container {
       width: 80%;
       margin: 0 auto;
@@ -121,7 +122,7 @@ main {
   }
   // ============ download ==========
   .download {
-    padding-block: 3%;
+    padding: 3% 0;
 
     .download-container {
       width: 80%;
@@ -186,9 +187,10 @@ main {
   }
   // ============ Watch everywhere ========
   .everywhere {
-    border-block: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
     width: 100%;
-    padding-block: 3%;
+    padding: 3% 0;
     .everywhere-container {
       width: 80%;
       margin: 0 auto;
@@ -236,7 +238,7 @@ main {
   }
   // =============== Kids ===========
   .kids {
-    padding-block: 3%;
+    padding: 3% 0;
     .kids-container {
       width: 80%;
       margin: 0 auto;
@@ -275,7 +277,7 @@ main {
   // =============== asked ===========
   .asked {
     border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
-    padding-block: 3%;
+    padding: 3% 0;
     .asked-container {
       width: 50%;
       margin: 0 auto;
@@ -344,7 +346,7 @@ main {
   }
   // ============= last form =============
   .lastForm {
-    padding-block: 3%;
+    padding: 3% 0;
     border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
     .lastForm-container{
 
